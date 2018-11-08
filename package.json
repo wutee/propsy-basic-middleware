@@ -16,7 +16,8 @@
   "author": "wutee",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.9.8"
+    "express": "^4.9.8",
+    "xmysql": "^0.4.9"
   },
   "engines": {
     "node": "10.x"
