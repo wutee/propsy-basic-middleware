@@ -5,7 +5,7 @@
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "xmysql -h sql.modasu.home.pl -u 07500260_propsy -p '+;:ake!T6@sW' -d 07500260_propsy"
+    "start": "xmysql -h sql.modasu.home.pl -u 07500260_propsy -p '+;:ake!T6@sW' -d 07500260_propsy --ipAddress 0.0.0.0"
   },
   "keywords": [
     "middleware",
@@ -15,9 +15,9 @@
   ],
   "author": "wutee",
   "license": "ISC",
+  "xmysql": "^0.4.9"
   "dependencies": {
     "express": "^4.9.8",
-    "xmysql": "^0.4.9"
   },
   "engines": {
     "node": "10.x"
